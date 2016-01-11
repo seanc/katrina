@@ -14,6 +14,7 @@ class ScrambleCommand extends Command {
     this.bot = bot;
   }
   onCommand(channel, message, sender, args) {
+    let guessed = false;
     if(args.length === 0) {
       let word = (function() {
         let word = words[Math.floor(Math.random() * words.length)].split('');
@@ -28,6 +29,7 @@ class ScrambleCommand extends Command {
       }());
       this.bot.sendMsg(channel, `The word is: *${word}*`);
       setTimeout(function() {
+        if(!guessed) return;
         this.bot.sendMsg(channel, `No one guessed the word, the word was: *${original}*`);
         original = null;
       }.bind(this), 25000);
@@ -38,6 +40,7 @@ class ScrambleCommand extends Command {
         this.bot.sendMsg(channel, 'A word has not been chosen yet! Type !scramble to get started.');
       }
       if(original === word) {
+        guessed = true;
         this.bot.sendMsg(channel, '*'+ sender.name +'* Guessed the word: ' + original);
       }
     }

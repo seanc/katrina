@@ -10,12 +10,8 @@ cannabis
 jamen
 text editor
 internet
-intranet
-inspect element
 phoenix
 elixir
 nodejs
-applescript
-xcode
 responsive
 canvas

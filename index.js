@@ -15,6 +15,7 @@ lib.registerListener('start');
 lib.registerListener('command');
 
 lib.registerCommand(require('./commands/test.js'));
+lib.registerCommand(require('./commands/scramble.js'));
 
 
 // bot.on('message', data => {

@@ -25,8 +25,6 @@ module.exports = function(bot) {
         }
       });
     });
-
-    console.log(command, args);
   });
 
   return bot;

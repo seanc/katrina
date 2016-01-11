@@ -27,14 +27,21 @@ class ScrambleCommand extends Command {
         return word.join('');
       }());
       this.bot.sendMsg(channel, `The word is: *${word}*`);
+      setTimeout(function() {
+        this.bot.sendMsg(channel, `No one guessed the word, the word was: *${original}*`);
+        original = null;
+      }.bind(this), 25000);
     }
     if(args.length > 0) {
       let word = args.join(' ').trim().toLowerCase();
+      if(original === null) {
+        this.bot.sendMsg(channel, 'A word has not been chosen yet! Type !scramble to get started.');
+      }
       if(original === word) {
         this.bot.sendMsg(channel, '*'+ sender.name +'* Guessed the word: ' + original);
       }
     }
   }
- }
+}
 
 module.exports = ScrambleCommand;

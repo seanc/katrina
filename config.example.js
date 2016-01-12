@@ -3,5 +3,6 @@
 module.exports = {
   iKey: 'xoxb-',
   botName: 'seanbot',
-  cmdPrefix: '!'
+  cmdPrefix: '!',
+  oneDb: 'https://raw.githubusercontent.com/seanc/one/master/shorts.json'
 };

@@ -16,7 +16,7 @@ lib.registerListener('command');
 
 lib.registerCommand('test');
 lib.registerCommand('scramble');
-
+lib.registerCommand('lookup');
 
 // bot.on('message', data => {
 //   if(typeof data.text === 'undefined') return;

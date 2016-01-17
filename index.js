@@ -13,6 +13,7 @@ lib.setBot(bot);
 
 lib.registerListener('start');
 lib.registerListener('command');
+lib.registerListener('kbve');
 
 lib.registerCommand('test');
 lib.registerCommand('scramble');

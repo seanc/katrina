@@ -2,7 +2,7 @@
   "name": "seanbot",
   "version": "1.0.0",
   "description": "Sean's personal slack bot for PTP",
-  "repository": "https://github.com/seanc/one.git",
+  "repository": "https://github.com/seanc/seanbot.git",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,8 +11,10 @@
   "license": "ISC",
   "dependencies": {
     "es6-promise": "^3.0.2",
+    "lowdb": "^0.12.5",
     "request-promise": "^1.0.2",
     "skype-event": "github:seanc/skype-event",
-    "slackbotapi": "^1.3.7"
+    "slackbotapi": "^1.3.7",
+    "text-table": "^0.2.0"
   }
 }

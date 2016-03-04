@@ -13,11 +13,12 @@ lib.setBot(bot);
 
 lib.registerListener('start');
 lib.registerListener('command');
-lib.registerListener('kbve');
+lib.registerListener('mstat');
 
 lib.registerCommand('test');
 lib.registerCommand('scramble');
 lib.registerCommand('lookup');
+lib.registerCommand('mstat');
 
 // bot.on('message', data => {
 //   if(typeof data.text === 'undefined') return;

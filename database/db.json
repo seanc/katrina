@@ -1,0 +1,76 @@
+{
+  "users": [
+    {
+      "user": {
+        "username": "sean",
+        "count": 1604
+      }
+    },
+    {
+      "user": {
+        "username": "jamen",
+        "count": 1321
+      }
+    },
+    {
+      "user": {
+        "username": "jay",
+        "count": 22
+      }
+    },
+    {
+      "user": {
+        "username": "dustindowell",
+        "count": 261
+      }
+    },
+    {
+      "user": {
+        "username": "jelanithompson",
+        "count": 344
+      }
+    },
+    {
+      "user": {
+        "username": "preston",
+        "count": 214
+      }
+    },
+    {
+      "user": {
+        "username": "jleeto",
+        "count": 217
+      }
+    },
+    {
+      "user": {
+        "username": "wing",
+        "count": 24
+      }
+    },
+    {
+      "user": {
+        "username": "dustin",
+        "count": 660
+      }
+    },
+    {
+      "user": {
+        "username": "junos",
+        "count": 112
+      }
+    },
+    {
+      "user": {
+        "username": "vectrix",
+        "count": 35
+      }
+    },
+    {
+      "user": {
+        "username": "sponges",
+        "count": 1
+      }
+    }
+  ]
+}

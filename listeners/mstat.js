@@ -4,7 +4,7 @@ let lib = require('../lib'),
     low = require('lowdb'),
     storage = require('lowdb/file-sync');
     
-const db = low('../database/db.json', {storage}),
+const db = low('./database/db.json', {storage}),
       users = db('users');
     
 module.exports = (bot) => {

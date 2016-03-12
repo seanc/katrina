@@ -7,6 +7,7 @@ module.exports = function(bot) {
 
   bot.on('message', data => {
     if(typeof data.text === 'undefined') return;
+    if(typeof data.user === 'undefined') return;
     if(bot.getUser(data.user).name === bot.config.botName) return;
     if(data.text.charAt(0) !== bot.config.cmdPrefix) return;
 

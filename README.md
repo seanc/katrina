@@ -1,5 +1,5 @@
 # seanbot
-> PTP's very own Seanbot.
+> PTP's very own Seanbot
 
 ## Installation
 ```shell

@@ -1,0 +1,35 @@
+{
+  "name": "katrina",
+  "author": "Sean Wilson",
+  "version": "0.0.0",
+  "description": "Katrina keeps you company.",
+  "main": "lib",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/seanc/katrina"
+  },
+  "scripts": {
+    "test": "node test"
+  },
+  "private": false,
+  "files": [
+    "lib"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^2.8.0",
+    "eslint-config-google": "^0.5.0",
+    "math-expression-evaluator": "^1.2.8"
+  },
+  "dependencies": {
+    "botkit": "^0.1.1",
+    "cli-list": "^0.1.6",
+    "hmu": "^1.0.1",
+    "hmu-gh": "^1.0.0",
+    "hmu-http": "^0.1.1",
+    "hmu-mc": "^0.1.0",
+    "hmu-npm": "^1.0.0",
+    "hmu-slack": "^0.1.1",
+    "jsesc": "^1.0.0"
+  }
+}

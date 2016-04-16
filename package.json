@@ -13,9 +13,13 @@
   },
   "private": false,
   "files": [
-    "lib"
+    "lib",
+    "config.example.json"
   ],
   "license": "MIT",
+  "bin": {
+    "katrina": "./lib/index.js"
+  },
   "devDependencies": {
     "eslint": "^2.8.0",
     "eslint-config-google": "^0.5.0",
@@ -23,13 +27,6 @@
   },
   "dependencies": {
     "botkit": "^0.1.1",
-    "cli-list": "^0.1.6",
-    "hmu": "^1.0.1",
-    "hmu-gh": "^1.0.0",
-    "hmu-http": "^0.1.1",
-    "hmu-mc": "^0.1.0",
-    "hmu-npm": "^1.0.0",
-    "hmu-slack": "^0.1.1",
-    "jsesc": "^1.0.0"
+    "cli-list": "^0.1.6"
   }
 }

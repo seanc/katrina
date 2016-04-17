@@ -26,8 +26,9 @@
   },
   "dependencies": {
     "botkit": "^0.1.1",
+    "cleverbot-node": "^0.2.1",
     "cli-list": "^0.1.6",
-    "minimist": "^1.2.0",
-    "math-expression-evaluator": "^1.2.8"
+    "math-expression-evaluator": "^1.2.8",
+    "minimist": "^1.2.0"
   }
 }

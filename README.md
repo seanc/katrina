@@ -17,8 +17,8 @@ $ npm install katrina -g
 $ katrina <...options>
 
 Options:
-  -h | --help Show help screen.
-  --token     Your slack token
+  -h | --help   Show help screen.
+  --token       Your slack token
 ```
 
 ## Credits

@@ -1,11 +1,12 @@
 # katrina
 > Katrina keeps you company.
 
-Katrina is an ever-expanding slack bot of neat features. At the moment it has the current features.
+Katrina is an ever-expanding slack bot of neat features. At the moment she has the current features.
 
 * `count` command. Use like `@katrina: count paragraphs of text here`
 * `math`  command. Use like `@katrina: math 1 + 2`
-* Katrina also is a chat bot, you can access it like so `@katrina: hello`
+* Katrina loves to chat too, you can talk to her like so `@katrina: hello`. If you are talking to Katrina in a DM, you don't have to include the mention.
+
 
 ## Installation
 ```shell

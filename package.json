@@ -28,8 +28,6 @@
     "botkit": "^0.1.1",
     "cleverbot-node": "^0.2.1",
     "cli-list": "^0.1.6",
-    "expression-parser": "^1.0.0",
-    "math-expression-evaluator": "^1.2.8",
     "mathjs": "^3.2.1",
     "minimist": "^1.2.0"
   }

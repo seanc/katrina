@@ -30,9 +30,15 @@
     "cleverbot-node": "^0.2.1",
     "cli-list": "^0.1.6",
     "hmu-core": "git+https://github.com/jamen/hmu-core.git#v1",
+    "is-valid": "^1.1.0",
     "mathjs": "^3.2.1",
     "minimist": "^1.2.0",
+    "node-summary": "^1.1.0",
+    "node-tldr": "^0.4.14",
     "promise-routine": "^1.0.0",
-    "request": "^2.72.0"
+    "request": "^2.72.0",
+    "summarizer": "^1.0.0",
+    "underscore": "^1.8.3",
+    "unfluff": "^1.0.0"
   }
 }

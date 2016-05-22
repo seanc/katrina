@@ -21,14 +21,18 @@
     "katrina": "./lib/index.js"
   },
   "devDependencies": {
-    "eslint": "^2.8.0",
+    "eslint": "^2.10.1",
     "eslint-config-google": "^0.5.0"
   },
   "dependencies": {
+    "bluebird": "^3.4.0",
     "botkit": "^0.1.1",
     "cleverbot-node": "^0.2.1",
     "cli-list": "^0.1.6",
+    "hmu-core": "git+https://github.com/jamen/hmu-core.git#v1",
     "mathjs": "^3.2.1",
-    "minimist": "^1.2.0"
+    "minimist": "^1.2.0",
+    "promise-routine": "^1.0.0",
+    "request": "^2.72.0"
   }
 }

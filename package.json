@@ -30,7 +30,7 @@
     "cleverbot-node": "^0.2.1",
     "cli-list": "^0.1.6",
     "hmu-core": "^0.2.1-0",
-    "hmu-gh": "0.1.0-1",
+    "hmu-gh": "^2.0.1",
     "hmu-npm": "^2.0.0-2",
     "hmu-runs-parse": "^0.1.0",
     "hmu-slack": "^0.2.0",

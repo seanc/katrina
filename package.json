@@ -29,20 +29,24 @@
     "botkit": "^0.1.1",
     "cleverbot-node": "^0.2.1",
     "cli-list": "^0.1.6",
+    "get-line": "^0.1.2",
     "hmu-core": "^0.2.1-0",
     "hmu-gh": "^2.0.1",
     "hmu-npm": "^2.0.0-2",
     "hmu-runs-parse": "^0.1.0",
     "hmu-slack": "^0.2.0",
     "is-valid": "^1.1.0",
+    "lodash": "^4.13.1",
     "mathjs": "^3.2.1",
     "minimist": "^1.2.0",
     "node-summary": "^1.1.0",
     "node-tldr": "^0.4.14",
     "promise-routine": "^1.0.0",
+    "querystring": "^0.2.0",
     "request": "^2.72.0",
     "summarizer": "^1.0.0",
     "underscore": "^1.8.3",
-    "unfluff": "^1.0.0"
+    "unfluff": "^1.0.0",
+    "vm2": "^2.0.2"
   }
 }

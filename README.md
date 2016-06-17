@@ -5,6 +5,9 @@ Katrina is an ever-expanding slack bot of neat features. At the moment she has t
 
 * `count` command. Use like `@katrina: count paragraphs of text here`
 * `math`  command. Use like `@katrina: math 1 + 2`
+* `hmu`   command. Use like `@katrina: hmu <hmu-plugin> <...names>`
+* `eval`  command. Use like `@katrina: eval <expression>`. *Note* This supports multiline code blocks, make sure to pre/append '```';
+* `summarize` command. Use like `@katrina: summarize <url>`
 * Katrina loves to chat too, you can talk to her like so `@katrina: hello`. If you are talking to Katrina in a DM, you don't have to include the mention.
 
 
@@ -18,8 +21,10 @@ $ npm install katrina -g
 $ katrina <...options>
 
 Options:
-  -h | --help   Show help screen.
-  --token       Your slack token
+  -h | --help     Show help screen.
+  -v | --version  Show the version.
+  -d | --debug    Enable debug mode.
+  --token         Your slack token.
 ```
 
 ## Credits

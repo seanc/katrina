@@ -51,6 +51,7 @@
     "querystring": "^0.2.0",
     "request": "^2.72.0",
     "sate": "^1.0.2",
+    "semver": "^5.2.0",
     "summarizer": "^1.0.0",
     "through2": "^2.0.1",
     "underscore": "^1.8.3",
